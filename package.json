@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "doc": "typedoc src/index.ts"
+    "doc": "typedoc src/index.ts",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +15,11 @@
   "dependencies": {
     "@types/google-apps-script": "^1.0.74",
     "typedoc": "^0.25.2"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.5.0",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   }
 }
