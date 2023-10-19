@@ -1,8 +1,17 @@
 {
-  "name": "lib-gas-utils",
-  "version": "1.0.0",
+  "name": "@tsht99/lib-gas-utils",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tsht99/lib-gas-utils.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "doc": "typedoc src/index.ts",
@@ -11,7 +20,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "dependencies": {
     "@types/google-apps-script": "^1.0.74",
     "typedoc": "^0.25.2"
