@@ -26,6 +26,8 @@ jobs:
                   registry-url: https://npm.pkg.github.com
 
             - uses: pnpm/action-setup@v2.2.2
+              with:
+                  version: 8.9.0
 
             # 必要なモジュール（typescript）をインストール
             - name: install node_modules
