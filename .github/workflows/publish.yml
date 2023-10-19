@@ -35,7 +35,7 @@ jobs:
 
             # トランスパイルを実行
             - name: build
-              run: npx tsc
+              run: pnpm build
 
             # パッケージとして公開する
             - name: publish
