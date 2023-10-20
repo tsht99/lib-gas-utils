@@ -1,4 +1,9 @@
-*
-!/dist/
-!/node_modules/
-!/package.json
+/.github/
+/src/
+/.gitignore
+/.npmignore
+/.prettierrc.json
+/pnpm-lock.yaml
+/README.md
+/tsconfig.json
+/webpack.config.js
