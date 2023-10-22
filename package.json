@@ -1,7 +1,7 @@
 {
   "name": "@tsht99/lib-gas-utils",
   "version": "0.0.8",
-  "description": "",
+  "description": "Google Apps Script のユーティリティライブラリ",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/tsht99/lib-gas-utils.git"
+    "url": "https://github.com/tsht99/lib-gas-utils"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,9 +17,11 @@
     "dev": "webpack --mode development",
     "build": "webpack --mode production"
   },
-  "keywords": [],
+  "keywords": [
+    "google-apps-script"
+  ],
   "author": "tsht99",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "@types/google-apps-script": "^1.0.74",
     "typedoc": "^0.25.2"
@@ -29,5 +31,6 @@
     "typescript": "^5.2.2",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
-  }
+  },
+  "bugs": "https://github.com/tsht99/lib-gas-utils/issues"
 }
