@@ -2,6 +2,15 @@
 
 ## install
 
+.npmrc ファイルを作成
+
+```txt:.npmrc
+//npm.pkg.github.com/:_authToken={ PAT }
+@tsht99:registry="https://npm.pkg.github.com"
+```
+
+ターミナルでコマンドを実行
+
 ```bash
-pnpm install git://github.com/tsht99/lib-gas-utils.git
+pnpm install @tsht99/lib-gas-utils
 ```
