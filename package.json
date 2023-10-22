@@ -5,11 +5,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist/*"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/tsht99/lib-gas-utils.git"
@@ -21,7 +18,7 @@
     "build": "webpack --mode production"
   },
   "keywords": [],
-  "author": "",
+  "author": "tsht99",
   "license": "UNLICENSED",
   "dependencies": {
     "@types/google-apps-script": "^1.0.74",
