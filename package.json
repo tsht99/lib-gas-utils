@@ -4,12 +4,10 @@
   "version": "0.1.0",
   "author": "tsht99",
   "bugs": "https://github.com/tsht99/lib-gas-utils/issues",
-  "dependencies": {
-    "@types/google-apps-script": "^1.0.74",
-    "typedoc": "^0.25.2"
-  },
   "devDependencies": {
+    "@types/google-apps-script": "^1.0.76",
     "ts-loader": "^9.5.0",
+    "typedoc": "^0.25.2",
     "typescript": "^5.2.2",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
