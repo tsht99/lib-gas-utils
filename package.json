@@ -1,27 +1,9 @@
 {
   "name": "@tsht99/lib-gas-utils",
-  "version": "0.0.8",
   "description": "Google Apps Script のユーティリティライブラリ",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist/*"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tsht99/lib-gas-utils"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "doc": "typedoc src/index.ts",
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production"
-  },
-  "keywords": [
-    "google-apps-script"
-  ],
+  "version": "0.0.8",
   "author": "tsht99",
-  "license": "MIT",
+  "bugs": "https://github.com/tsht99/lib-gas-utils/issues",
   "dependencies": {
     "@types/google-apps-script": "^1.0.74",
     "typedoc": "^0.25.2"
@@ -32,5 +14,23 @@
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
   },
-  "bugs": "https://github.com/tsht99/lib-gas-utils/issues"
+  "files": [
+    "dist/*"
+  ],
+  "keywords": [
+    "google-apps-script"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsht99/lib-gas-utils"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "doc": "typedoc src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "dist/index.d.ts"
 }
