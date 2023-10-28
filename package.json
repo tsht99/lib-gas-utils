@@ -6,11 +6,8 @@
   "bugs": "https://github.com/tsht99/lib-gas-utils/issues",
   "devDependencies": {
     "@types/google-apps-script": "^1.0.76",
-    "ts-loader": "^9.5.0",
-    "typedoc": "^0.25.2",
-    "typescript": "^5.2.2",
-    "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4"
+    "esbuild": "^0.19.5",
+    "typedoc": "^0.25.2"
   },
   "files": [
     "dist/*"
@@ -25,8 +22,7 @@
     "url": "https://github.com/tsht99/lib-gas-utils"
   },
   "scripts": {
-    "build": "webpack --mode production",
-    "dev": "webpack --mode development",
+    "build": "esbuild --bundle src/index.ts --outfile=dist/index.js && tsc --declaration --emitDeclarationOnly --declarationDir dist",
     "doc": "typedoc src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
