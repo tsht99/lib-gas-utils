@@ -22,7 +22,7 @@
     "url": "https://github.com/tsht99/lib-gas-utils"
   },
   "scripts": {
-    "build": "esbuild --bundle src/index.ts --outfile=dist/index.js && tsc --declaration --emitDeclarationOnly --declarationDir dist",
+    "build": "esbuild --bundle src/index.ts --outfile=dist/index.js --format=esm && tsc --declaration --emitDeclarationOnly --declarationDir dist",
     "doc": "typedoc src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
