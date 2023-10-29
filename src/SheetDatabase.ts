@@ -69,11 +69,10 @@ export class SheetDatabase {
 
     /**
      * データベースの全てのデータを読み取ります。
-     * @throws データが存在しない場合にスローされるエラー。
      * @returns 全てのデータ。
      */
     public read() {
-        if (!this.length) throw new Error(this.RECORD_NOT_FOUND)
+        if (!this.length) return []
         return this.sheet.getRange(1, 1, 1, this.length).getValues()[0]
     }
 
