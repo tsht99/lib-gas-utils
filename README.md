@@ -4,7 +4,7 @@
 
 .npmrc ファイルを作成
 
-```txt:.npmrc
+```
 //npm.pkg.github.com/:_authToken={ PAT }
 @tsht99:registry="https://npm.pkg.github.com"
 ```

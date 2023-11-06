@@ -7,6 +7,8 @@
   "devDependencies": {
     "@types/google-apps-script": "^1.0.76",
     "esbuild": "^0.19.5",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.1",
     "typedoc": "^0.25.2"
   },
   "files": [
@@ -23,9 +25,9 @@
     "url": "https://github.com/tsht99/lib-gas-utils"
   },
   "scripts": {
-    "build": "esbuild --bundle src/index.ts --outfile=dist/index.js --format=esm && tsc --declaration --emitDeclarationOnly --declarationDir dist",
-    "doc": "typedoc src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "pnpm clean && ts-node esbuild.config.ts && tsc",
+    "clean": "rimraf dist",
+    "doc": "typedoc src/index.ts"
   },
   "types": "dist/index.d.ts"
 }
