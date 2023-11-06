@@ -6,6 +6,7 @@
   "bugs": "https://github.com/tsht99/lib-gas-utils/issues",
   "devDependencies": {
     "@types/google-apps-script": "^1.0.76",
+    "@types/node": "^20.8.10",
     "esbuild": "^0.19.5",
     "rimraf": "^5.0.5",
     "ts-node": "^10.9.1",
