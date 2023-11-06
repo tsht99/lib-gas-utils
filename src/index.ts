@@ -1,2 +1,2 @@
 export * from './setValuesToSheetRange'
-export * from './SheetDatabase'
+export * from './toTextOutput'
