@@ -12,6 +12,7 @@
   "files": [
     "dist/*"
   ],
+  "homepage": "https://github.com/tsht99/lib-gas-utils#readme",
   "keywords": [
     "google-apps-script"
   ],
